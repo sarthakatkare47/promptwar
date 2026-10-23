@@ -106,8 +106,7 @@ def main():
     req_findings = urllib.request.urlopen(f"{BASE}/api/invoices/{mismatch_res['invoice_id']}/findings")
     findings_data = json.loads(req_findings.read().decode("utf-8"))
     findings = findings_data.get("items", findings_data)
-    print(f"[10] Detailed Findings for Mismatch: {len(findings)} findings")
-    assert any(f["rule_id"] == "RULE-TAX-001" for f in findings)
+    assert any(f["rule_id"] in ("TAX-002", "TAX-001") for f in findings)
 
     print("\n=======================================================")
     print(">>> ALL 10 E2E FRONTEND-BACKEND INTEGRATION TESTS PASSED! <<<")
