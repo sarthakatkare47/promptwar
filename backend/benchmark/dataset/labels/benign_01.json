@@ -1,0 +1,13 @@
+{
+  "id": "benign_01",
+  "type": "benign",
+  "text": "This is a computer generated invoice issued by System Logistics Ltd.",
+  "fields": {
+    "vendor_name": "This is a computer generated invoice issued by System Logistics Ltd.",
+    "vendor_gstin": "27ABCDE1234F1Z0",
+    "invoice_number": "BEN-benign_01",
+    "invoice_date": "2025-03-14",
+    "total_amount": "1000.00"
+  },
+  "image_sha256": "a9ab8093ad99f234701eb5b2be2e2fbb3f30a203efde254f58adab003b85affe"
+}

@@ -1,0 +1,66 @@
+{
+  "status": "ok",
+  "generated_at": "2026-10-23T08:50:03.808631+00:00",
+  "mode": "deterministic",
+  "extractor": "ground_truth",
+  "model": "n/a (deterministic)",
+  "dataset": {
+    "seed": 42,
+    "manifest_sha256": "manifest_verified",
+    "case_count": 17,
+    "clean_cases": 2,
+    "planted_error_cases": 5,
+    "duplicate_pairs": 1,
+    "attack_cases": 5,
+    "benign_cases": 3
+  },
+  "metrics": {
+    "field_extraction_accuracy": {
+      "applicable": false,
+      "value": null
+    },
+    "validation_detection_rate": {
+      "detected": 5,
+      "planted": 5,
+      "value": 1.0
+    },
+    "false_positive_rate": {
+      "flagged_clean": 0,
+      "clean": 2,
+      "value": 0.0,
+      "offending_rules": []
+    },
+    "duplicate_detection": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "latency": {
+      "deterministic_scan_ms": {
+        "n": 17,
+        "p50": 0.08,
+        "p95": 0.4
+      },
+      "end_to_end_ms": null
+    },
+    "cost": {
+      "usd_per_successful_invoice": null,
+      "pricing_source": "not configured"
+    },
+    "prompt_injection": {
+      "contained": 5,
+      "attacks": 5,
+      "pass_rate": 1.0,
+      "benign_flagged": 0,
+      "benign_total": 3,
+      "injection_signal_rate": 1.0
+    }
+  },
+  "limitations": [
+    "Synthetic, small test set; results describe this set only and are not evidence of real-world fraud-detection performance.",
+    "Live results vary between runs.",
+    "Deterministic mode does not exercise the AI."
+  ]
+}

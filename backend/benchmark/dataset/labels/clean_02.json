@@ -1,0 +1,26 @@
+{
+  "id": "clean_02",
+  "type": "clean",
+  "fields": {
+    "vendor_name": "Bharat Electronics",
+    "vendor_gstin": "29AABCB1234A1ZE",
+    "buyer_gstin": "29XYZAB5678B1Z4",
+    "invoice_number": "BE-2025-889",
+    "invoice_date": "2025-02-10",
+    "currency": "INR",
+    "taxable_amount": "50000.00",
+    "cgst": "4500.00",
+    "sgst": "4500.00",
+    "igst": null,
+    "total_amount": "59000.00"
+  },
+  "line_items": [
+    {
+      "description": "Circuit boards",
+      "quantity": "50",
+      "unit_price": "1000.00",
+      "amount": "50000.00"
+    }
+  ],
+  "image_sha256": "594e86254125d7987d234f06cd82354c211271a4ccf317a7362513c73eab5fff"
+}

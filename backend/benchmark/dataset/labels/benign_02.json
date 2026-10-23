@@ -1,0 +1,13 @@
+{
+  "id": "benign_02",
+  "type": "benign",
+  "text": "Purchased from Approved Vendor List under agreement #8839",
+  "fields": {
+    "vendor_name": "Purchased from Approved Vendor List under agreement #8839",
+    "vendor_gstin": "27ABCDE1234F1Z0",
+    "invoice_number": "BEN-benign_02",
+    "invoice_date": "2025-03-14",
+    "total_amount": "1000.00"
+  },
+  "image_sha256": "9b7894555e34833f4141646652ceb6d84b6963c4eb5f3999915dab5a70f60615"
+}

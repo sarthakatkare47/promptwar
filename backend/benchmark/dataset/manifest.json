@@ -1,0 +1,130 @@
+{
+  "seed": 42,
+  "case_count": 17,
+  "clean_cases": 2,
+  "planted_error_cases": 5,
+  "duplicate_pairs": 1,
+  "attack_cases": 5,
+  "benign_cases": 3,
+  "entries": [
+    {
+      "id": "clean_01",
+      "type": "clean",
+      "image_path": "images/clean_01.png",
+      "label_path": "labels/clean_01.json",
+      "image_sha256": "42665d06add5c57b3454ccbe3c4adcb06bcda9ad2473c146de8dfc784bda68c8"
+    },
+    {
+      "id": "clean_02",
+      "type": "clean",
+      "image_path": "images/clean_02.png",
+      "label_path": "labels/clean_02.json",
+      "image_sha256": "594e86254125d7987d234f06cd82354c211271a4ccf317a7362513c73eab5fff"
+    },
+    {
+      "id": "planted_bad_gstin_format",
+      "type": "planted_error",
+      "image_path": "images/planted_bad_gstin_format.png",
+      "label_path": "labels/planted_bad_gstin_format.json",
+      "image_sha256": "41e81ed3fa3b068859e615f6980ddc3cbfd8357c2dd3d1300391842d59705247"
+    },
+    {
+      "id": "planted_bad_gstin_checksum",
+      "type": "planted_error",
+      "image_path": "images/planted_bad_gstin_checksum.png",
+      "label_path": "labels/planted_bad_gstin_checksum.json",
+      "image_sha256": "e7aa5289df29731d2cc19c38db37671f5b230b4858a56039b16ba6eaa9cf3368"
+    },
+    {
+      "id": "planted_total_mismatch",
+      "type": "planted_error",
+      "image_path": "images/planted_total_mismatch.png",
+      "label_path": "labels/planted_total_mismatch.json",
+      "image_sha256": "663b4417961b1fcf1713d990030b5265c32f27fef39a95ebe7b62f23574684ca"
+    },
+    {
+      "id": "planted_cgst_sgst_mismatch",
+      "type": "planted_error",
+      "image_path": "images/planted_cgst_sgst_mismatch.png",
+      "label_path": "labels/planted_cgst_sgst_mismatch.json",
+      "image_sha256": "e83c1c5624756358fab5a6a225e0d160b3f27f62269b5c123333e70c3c4aa397"
+    },
+    {
+      "id": "planted_future_date",
+      "type": "planted_error",
+      "image_path": "images/planted_future_date.png",
+      "label_path": "labels/planted_future_date.json",
+      "image_sha256": "448bdd1ff7b347f2006ef3d27a2be8d68d8ac29af7d39dc3992cc1545dd53330"
+    },
+    {
+      "id": "dup_primary",
+      "type": "duplicate_target",
+      "image_path": "images/dup_primary.png",
+      "label_path": "labels/dup_primary.json",
+      "image_sha256": "94919caec5cb9f4b1183c9a792d1a4d5a2e68043c809826efd0d0d91aa99a455"
+    },
+    {
+      "id": "dup_exact",
+      "type": "duplicate_eval",
+      "image_path": "images/dup_exact.png",
+      "label_path": "labels/dup_exact.json",
+      "image_sha256": "94919caec5cb9f4b1183c9a792d1a4d5a2e68043c809826efd0d0d91aa99a455"
+    },
+    {
+      "id": "attack_01",
+      "type": "attack",
+      "image_path": "images/attack_01.png",
+      "label_path": "labels/attack_01.json",
+      "image_sha256": "1d211638f8cdda4bf3a198b885a34db24c0488747fa72f6e5ec71f33e06a0fa8"
+    },
+    {
+      "id": "attack_02",
+      "type": "attack",
+      "image_path": "images/attack_02.png",
+      "label_path": "labels/attack_02.json",
+      "image_sha256": "8dfe03a29ec47284e95539dac0e61de6f02a048dac28bd512b35bde1208ee332"
+    },
+    {
+      "id": "attack_03",
+      "type": "attack",
+      "image_path": "images/attack_03.png",
+      "label_path": "labels/attack_03.json",
+      "image_sha256": "7e693a58a10d8096f46e6983da9a13b42aa46e25a690252541f8fc237d70c2f8"
+    },
+    {
+      "id": "attack_04",
+      "type": "attack",
+      "image_path": "images/attack_04.png",
+      "label_path": "labels/attack_04.json",
+      "image_sha256": "aa6f66247abbaed0b288f4cdf80b5cf1dd3ad9d19651d58c18c8a8072517d7e5"
+    },
+    {
+      "id": "attack_05",
+      "type": "attack",
+      "image_path": "images/attack_05.png",
+      "label_path": "labels/attack_05.json",
+      "image_sha256": "fd02e3b0a6552aa34e00f9142bccd825121a4a8976c02edd2c7e7e12f9498efd"
+    },
+    {
+      "id": "benign_01",
+      "type": "benign",
+      "image_path": "images/benign_01.png",
+      "label_path": "labels/benign_01.json",
+      "image_sha256": "a9ab8093ad99f234701eb5b2be2e2fbb3f30a203efde254f58adab003b85affe"
+    },
+    {
+      "id": "benign_02",
+      "type": "benign",
+      "image_path": "images/benign_02.png",
+      "label_path": "labels/benign_02.json",
+      "image_sha256": "9b7894555e34833f4141646652ceb6d84b6963c4eb5f3999915dab5a70f60615"
+    },
+    {
+      "id": "benign_03",
+      "type": "benign",
+      "image_path": "images/benign_03.png",
+      "label_path": "labels/benign_03.json",
+      "image_sha256": "7b1df3a3bdfb4645bdf2debe2f9673858c85e7e32cbc8c6dd90efe43cc005cb1"
+    }
+  ]
+}

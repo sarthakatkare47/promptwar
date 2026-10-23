@@ -1,0 +1,14 @@
+{
+  "id": "dup_exact",
+  "type": "duplicate_eval",
+  "is_duplicate": true,
+  "expected_rule_id": "DUP-001",
+  "fields": {
+    "vendor_name": "Unique Vendor A",
+    "vendor_gstin": "27ABCDE1234F1Z0",
+    "invoice_number": "DUP-101",
+    "invoice_date": "2025-03-14",
+    "total_amount": "5000.00"
+  },
+  "image_sha256": "94919caec5cb9f4b1183c9a792d1a4d5a2e68043c809826efd0d0d91aa99a455"
+}

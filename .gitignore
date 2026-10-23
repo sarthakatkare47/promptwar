@@ -1,0 +1,40 @@
+# Environment and secrets
+.env
+*.env
+backend/.env
+.venv/
+venv/
+ENV/
+
+# Data and uploads
+backend/data/
+backend/benchmark/dataset/images/
+backend/benchmark/dataset/pdfs/
+*.db
+*.sqlite
+*.sqlite3
+
+# Python cache & testing
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store

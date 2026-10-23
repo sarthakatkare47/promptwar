@@ -1,0 +1,22 @@
+{
+  "id": "planted_total_mismatch",
+  "type": "planted_error",
+  "expected_rule_id": "TAX-002",
+  "fields": {
+    "vendor_name": "Total Mismatch Supplier",
+    "vendor_gstin": "27ABCDE1234F1Z0",
+    "invoice_number": "FV-03",
+    "invoice_date": "2025-03-14",
+    "taxable_amount": "10000.00",
+    "cgst": "900.00",
+    "sgst": "900.00",
+    "total_amount": "14500.00"
+  },
+  "line_items": [
+    {
+      "description": "Item A",
+      "amount": "10000.00"
+    }
+  ],
+  "image_sha256": "663b4417961b1fcf1713d990030b5265c32f27fef39a95ebe7b62f23574684ca"
+}

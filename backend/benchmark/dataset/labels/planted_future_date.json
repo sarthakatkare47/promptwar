@@ -1,0 +1,22 @@
+{
+  "id": "planted_future_date",
+  "type": "planted_error",
+  "expected_rule_id": "DATE-002",
+  "fields": {
+    "vendor_name": "Future Date Supplier",
+    "vendor_gstin": "27ABCDE1234F1Z0",
+    "invoice_number": "FV-05",
+    "invoice_date": "2035-01-01",
+    "taxable_amount": "2000.00",
+    "cgst": "180.00",
+    "sgst": "180.00",
+    "total_amount": "2360.00"
+  },
+  "line_items": [
+    {
+      "description": "Item A",
+      "amount": "2000.00"
+    }
+  ],
+  "image_sha256": "448bdd1ff7b347f2006ef3d27a2be8d68d8ac29af7d39dc3992cc1545dd53330"
+}

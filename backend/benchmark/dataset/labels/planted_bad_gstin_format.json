@@ -1,0 +1,22 @@
+{
+  "id": "planted_bad_gstin_format",
+  "type": "planted_error",
+  "expected_rule_id": "GST-001",
+  "fields": {
+    "vendor_name": "Faulty Vendor",
+    "vendor_gstin": "INVALID_GSTIN_123",
+    "invoice_number": "FV-01",
+    "invoice_date": "2025-03-14",
+    "taxable_amount": "1000.00",
+    "cgst": "90.00",
+    "sgst": "90.00",
+    "total_amount": "1180.00"
+  },
+  "line_items": [
+    {
+      "description": "Item A",
+      "amount": "1000.00"
+    }
+  ],
+  "image_sha256": "41e81ed3fa3b068859e615f6980ddc3cbfd8357c2dd3d1300391842d59705247"
+}

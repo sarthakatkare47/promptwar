@@ -1,0 +1,26 @@
+{
+  "id": "clean_01",
+  "type": "clean",
+  "fields": {
+    "vendor_name": "Sharma Traders",
+    "vendor_gstin": "27ABCDE1234F1Z0",
+    "buyer_gstin": "27XYZAB5678C1Z6",
+    "invoice_number": "ST/24-25/0142",
+    "invoice_date": "2025-03-14",
+    "currency": "INR",
+    "taxable_amount": "10000.00",
+    "cgst": "900.00",
+    "sgst": "900.00",
+    "igst": null,
+    "total_amount": "11800.00"
+  },
+  "line_items": [
+    {
+      "description": "Steel bolts M8",
+      "quantity": "100",
+      "unit_price": "100.00",
+      "amount": "10000.00"
+    }
+  ],
+  "image_sha256": "42665d06add5c57b3454ccbe3c4adcb06bcda9ad2473c146de8dfc784bda68c8"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "dup_primary",
+  "type": "duplicate_target",
+  "fields": {
+    "vendor_name": "Unique Vendor A",
+    "vendor_gstin": "27ABCDE1234F1Z0",
+    "invoice_number": "DUP-101",
+    "invoice_date": "2025-03-14",
+    "total_amount": "5000.00"
+  },
+  "image_sha256": "94919caec5cb9f4b1183c9a792d1a4d5a2e68043c809826efd0d0d91aa99a455"
+}

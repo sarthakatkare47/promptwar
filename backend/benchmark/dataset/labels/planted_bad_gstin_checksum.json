@@ -1,0 +1,22 @@
+{
+  "id": "planted_bad_gstin_checksum",
+  "type": "planted_error",
+  "expected_rule_id": "GST-002",
+  "fields": {
+    "vendor_name": "Checksum Mismatch Vendor",
+    "vendor_gstin": "27ABCDE1234F1Z9",
+    "invoice_number": "FV-02",
+    "invoice_date": "2025-03-14",
+    "taxable_amount": "1000.00",
+    "cgst": "90.00",
+    "sgst": "90.00",
+    "total_amount": "1180.00"
+  },
+  "line_items": [
+    {
+      "description": "Item A",
+      "amount": "1000.00"
+    }
+  ],
+  "image_sha256": "e7aa5289df29731d2cc19c38db37671f5b230b4858a56039b16ba6eaa9cf3368"
+}

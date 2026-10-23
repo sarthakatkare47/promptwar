@@ -1,0 +1,22 @@
+{
+  "id": "planted_cgst_sgst_mismatch",
+  "type": "planted_error",
+  "expected_rule_id": "TAX-003",
+  "fields": {
+    "vendor_name": "Tax Split Supplier",
+    "vendor_gstin": "27ABCDE1234F1Z0",
+    "invoice_number": "FV-04",
+    "invoice_date": "2025-03-14",
+    "taxable_amount": "10000.00",
+    "cgst": "900.00",
+    "sgst": "1000.00",
+    "total_amount": "11900.00"
+  },
+  "line_items": [
+    {
+      "description": "Item A",
+      "amount": "10000.00"
+    }
+  ],
+  "image_sha256": "e83c1c5624756358fab5a6a225e0d160b3f27f62269b5c123333e70c3c4aa397"
+}
